@@ -35,7 +35,7 @@ properties ([
             ],
             script: [
                 classpath: [],
-                sandbox: true;
+                sandbox: true,
                 script:
                     ''' if (env.equals("Dev")){
                         return["devaaa001", "devaaa002", "devbbb001", "devbbb002", "devccc001", "devccc02"]
