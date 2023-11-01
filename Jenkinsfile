@@ -22,7 +22,7 @@ properties ([
     ],
     [$class: 'CascadeChoiceParameter',
         choiceType: 'PT_MULTI_SELECT',
-        description 'Select the server from the dropdown list',
+        description: 'Select the server from the dropdown list',
         name: 'server',
         referencedParameters: 'env',
         script: [
